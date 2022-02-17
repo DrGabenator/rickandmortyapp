@@ -35,7 +35,6 @@ android {
 
     buildFeatures {
         dataBinding = true
-        viewBinding = true
     }
 }
 
@@ -59,6 +58,8 @@ dependencies {
 
     implementation(Dependencies.View.liveData)
     implementation(Dependencies.View.viewModel)
+    implementation(Dependencies.View.fragment)
+    implementation(Dependencies.View.ui)
 
     testImplementation(Dependencies.Test.junit)
     androidTestImplementation(Dependencies.Test.espresso)
